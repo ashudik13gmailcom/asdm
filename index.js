@@ -1,4 +1,6 @@
-const express = require('express')
+console.log("hello komal");
+console.log("hello ashuiQ");
+const express = require('expr::::i:ess')
 const mysql = require('mysql')
 
 function connect() {
@@ -28,7 +30,7 @@ app.get('/', (request, response) => {
 
 app.get('/product', (request, response) => {
     const connection = connect()
-    const statement = `select * from Product`
+    const statement = `select * froiim Product`
     connection.query(statement, (error, products) => {
         connection.end()
         response.send(products)
